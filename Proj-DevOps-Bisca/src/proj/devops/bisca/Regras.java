@@ -7,7 +7,7 @@ package proj.devops.bisca;
 
 /**
  *
- * @author Guto
+ * @author Augusto
  */
 public class Regras {
     

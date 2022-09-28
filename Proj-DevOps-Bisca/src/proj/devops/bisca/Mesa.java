@@ -21,6 +21,10 @@ public class Mesa {
         // Responável por embaralhar as cartas 
         
         
+        
+        // Sortear as cartas reaproveitando o baralho já embaralhado
+        SortearNaipe(); // passar como parâmetro o baralho embaralhado
+        
         // Distribuindo as cartas para os jogadores
         DistribuirCartas(); // passar como parâmetro o baralho embaralhado
         

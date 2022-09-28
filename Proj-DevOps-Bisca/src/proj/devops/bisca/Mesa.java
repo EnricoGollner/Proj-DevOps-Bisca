@@ -3,9 +3,7 @@ package proj.devops.bisca;
 
 public class Mesa {
     
-    public static void main(String[] args) {
-        
-    }
+
     
     public void EmbaralharPilha() {
         // Responável por embaralhar as cartas 

@@ -1,31 +1,30 @@
 package proj.devops.bisca;
 
+import java.util.ArrayList;
+import proj.devops.bisca.Jogador;
+import proj.devops.bisca.Baralho;
+
+
 
 public class Mesa {
     
+    // Sorteando
+    public static String SorteiaCarta(String[] nipes, String[] faces) {
+        String nipe = nipes[(int) (Math.random() * 4)];
+        String face = faces[(int) (Math.random() * faces.length)];
+        String carta = face + " de " + nipe;
 
-    
-    public void EmbaralharPilha() {
-        // Responável por embaralhar as cartas 
-        
-        
-        
-        // Sortear as cartas reaproveitando o baralho já embaralhado
-        SortearNaipe(); // passar como parâmetro o baralho embaralhado
-        
-        // Distribuindo as cartas para os jogadores
-        DistribuirCartas(); // passar como parâmetro o baralho embaralhado
-        
+        return carta;
     }
     
-    public void SortearNaipe() {
-        // Responsável por sortear o naipe "trunfo" do jogo
-        
+    // Distribuindo
+    public static ArrayList<String> DistribuirCartas(ArrayList<String> jogador) {
+        for (int i = 0; i < 3; i++) {
+            String carta = SorteiaCarta(Baralho.nipes, Baralho.faces);
+            jogador.add(carta);
+        }
+        return jogador;
     }
-    
-    public void DistribuirCartas() {
-        // Responsável por distribuir as cartas aos jogadores
-        
-    }
-    
+
 }
+

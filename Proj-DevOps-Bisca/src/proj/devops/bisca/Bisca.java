@@ -16,13 +16,23 @@ public class Bisca {
     public static String[] nipes = {"Ouro", "Copas", "Espadas", "Paus"};
     public static String[] faces = {"As", "2", "3", "4", "5", "6", "7", "8", "9", "10",
         "Valete", "Dama", "Rei"};
+    
+    // Sorteando
+    public static String SorteiaCarta(String[] nipes, String[] faces) {
+        String nipe = nipes[(int) (Math.random() * 4)];
+        String face = faces[(int) (Math.random() * faces.length)];
+        String carta = face + " de " + nipe;
 
-    public static void Mesa(String[] args) {
-        // TODO code application logic here
-        
-        
-        
-        
+        return carta;
+    }
+    
+    // Distribuindo
+    public static ArrayList<String> DistribuirCartas(ArrayList<String> jogador) {
+        for (int i = 0; i < 3; i++) {
+            String carta = SorteiaCarta(nipes, faces);
+            jogador.add(carta);
+        }
+        return jogador;
     }
 
 }

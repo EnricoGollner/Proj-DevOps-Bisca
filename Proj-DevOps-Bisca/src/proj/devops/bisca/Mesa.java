@@ -1,31 +1,11 @@
 package proj.devops.bisca;
 
+import java.util.ArrayList;
 
 public class Mesa {
-    
 
-    
-    public void EmbaralharPilha() {
-        // Responável por embaralhar as cartas 
-        
-        
-        
-        // Sortear as cartas reaproveitando o baralho já embaralhado
-        SortearNaipe(); // passar como parâmetro o baralho embaralhado
-        
-        // Distribuindo as cartas para os jogadores
-        DistribuirCartas(); // passar como parâmetro o baralho embaralhado
-        
-    }
-    
-    public void SortearNaipe() {
-        // Responsável por sortear o naipe "trunfo" do jogo
-        
-    }
-    
-    public void DistribuirCartas() {
-        // Responsável por distribuir as cartas aos jogadores
-        
-    }
-    
+    // Criando jogadores:
+    public ArrayList<String> Jogador1 = new ArrayList<>(3);
+    public ArrayList<String> Jogador2 = new ArrayList<>(3);
+
 }

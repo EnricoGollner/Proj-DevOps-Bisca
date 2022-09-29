@@ -6,7 +6,7 @@ import proj.devops.bisca.Jogador;
 import proj.devops.bisca.Mesa;
 import proj.devops.bisca.Regras;
 
-
+// Classe responsável por exibir as partidas e o resultado final
 public class Bisca {
 
     public Bisca() {

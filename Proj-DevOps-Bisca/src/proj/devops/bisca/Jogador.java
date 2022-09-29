@@ -6,11 +6,7 @@ import proj.devops.bisca.Mesa;
 
 public class Jogador {
     
-    // Criando jogadores:
-    //public ArrayList<String> Jogador1 = new ArrayList<>(3);
-    //public ArrayList<String> Jogador2 = new ArrayList<>(3);
-    
-    
+    // Criando jogadores 
     public static ArrayList<String> Jogador1() {
     
         ArrayList<String> Jogador1 = new ArrayList<>(3);
@@ -30,13 +26,4 @@ public class Jogador {
         return JogadorCartas2;
         
     }
-        
-    
-    
- 
-   
-    
-
-
-
 }

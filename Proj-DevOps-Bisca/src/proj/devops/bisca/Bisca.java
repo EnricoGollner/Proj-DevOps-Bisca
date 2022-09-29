@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Guto
+ * @author Unisales turmas de Tecnologia
  */
 public class Bisca {
 

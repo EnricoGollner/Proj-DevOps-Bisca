@@ -14,7 +14,13 @@ public class Bisca {
         
         // Pegando os jogadores já com as cartas na mão (embaralhadas)
         ArrayList<String> Jogador1 = Jogador.Jogador1();
-        ArrayList<String> Jogador2 = Jogador.Jogador2();
+        ArrayList<String> Jogador2 = Jogador.Jogador2();   
+        
+        // Jogadas
+        
+        // Após as jogadas Comprar Cartas
+        
+
     }
 
 }

@@ -26,4 +26,14 @@ public class Jogador {
         return JogadorCartas2;
         
     }
+    
+    public static ArrayList<String> CompraCartas(ArrayList<String> jogador) {
+        
+        // Sorteando apenas uma carta
+        String carta = Mesa.SorteiaCarta(Baralho.nipes, Baralho.faces);
+        jogador.add(carta);
+        
+        return jogador;
+    }
+ 
 }

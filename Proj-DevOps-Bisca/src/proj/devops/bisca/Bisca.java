@@ -15,6 +15,11 @@ public class Bisca {
         ArrayList<String> Jogador1 = Jogador.Jogador1();
         ArrayList<String> Jogador2 = Jogador.Jogador2();
         
+        
+        // Após as jogadas
+        Jogador1 = Jogador.CompraCartas(Jogador1);
+        Jogador2 = Jogador.CompraCartas(Jogador2);
+        
     
     }
 

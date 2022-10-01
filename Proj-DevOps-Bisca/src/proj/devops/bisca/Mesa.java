@@ -19,8 +19,10 @@ public class Mesa {
     
     // Distribuindo
     public static ArrayList<String> DistribuirCartas(ArrayList<String> jogador) {
+        //public Monte
         for (int i = 0; i < 3; i++) {
             String carta = SorteiaCarta(Baralho.nipes, Baralho.faces);
+            // monte.add(carta)
             jogador.add(carta);
         }
         return jogador;

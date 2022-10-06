@@ -9,9 +9,9 @@ public class Regras {
         
         if ( naipe.Jogador1 == naipe.Jogador2 ){
             if ( face.Jogador1 > face.Jogador2 ){
-                resultadoJogador1++;
+                resultadoJogador1; //adicionar ponto para o jogador  (necessita adicionar ponto na array pontos)
             }else {
-                resultadoJogador2++;
+                resultadoJogador2++;  //adicionar ponto para o jogador  (necessita adicionar ponto na array pontos)
             }
         }
         

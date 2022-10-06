@@ -1,8 +1,6 @@
 package proj.devops.bisca;
 
 import java.util.ArrayList;
-import proj.devops.bisca.Jogador;
-import proj.devops.bisca.Baralho;
 
 
 

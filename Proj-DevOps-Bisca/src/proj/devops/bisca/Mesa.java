@@ -26,5 +26,8 @@ public class Mesa {
         return jogador;
     }
     
+    //pontuação
+    ArrayList<Integer> pontoJ1 = new ArrayList<>();
+    ArrayList<Integer> pontoJ2 = new ArrayList<>();
 }
 

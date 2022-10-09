@@ -31,3 +31,9 @@ public class Mesa {
     ArrayList<Integer> pontoJ2 = new ArrayList<>();
 }
 
+// iniciando compras do jogo
+    for (int i = 0; i < 3; i++) {
+        vJodares[0].pegarcarta (distribuir:mesa.distribuir ());
+        vJodares[1].pegarcarta (distribuir:mesa.distribuir ());
+
+}

@@ -20,6 +20,9 @@ public class Bisca {
         if (mesa.temcartas ()) {
             vJogadores[J1].pegarcartas (distribuir:mesa.distribuir ());
             vJogadores[J2].pegarcartas (distribuir:mesa.distribuir ());
+        
+     
+        
         }
             
             
